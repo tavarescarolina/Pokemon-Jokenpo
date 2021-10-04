@@ -1,0 +1,153 @@
+input {
+  visibility: hidden;
+}
+
+#playerOptions {
+  width: 100%;
+    display: grid;
+    grid-template-columns: repeat(18, 5%);
+    align-content: center;
+    align-items: center;
+ }
+
+
+
+.icon {
+  height: 100px;
+  width: 100px;
+  margin:auto;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+}
+
+.icon-background{
+  border-radius: 100%;
+}
+
+.type-name {
+  display: none;
+}
+
+.icon:hover .type-name, .fuckinginput:checked + .icon .type-name {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -140%);
+  font-size: 25px;
+}
+
+.icon-background:hover, .fuckinginput:checked + .icon {
+  filter: opacity(40%);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.plswork {
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+.typeIcons {
+  height: 60%;
+  width: 60%;
+  margin: 20%;
+}
+
+#bug-div {
+  background: #92BC2C;
+  box-shadow: 0 0 20px #92BC2C;
+}
+
+#label-bug {
+  color: green;
+  font-weight: bold; 
+}
+
+#dark-div {
+  background: #595761;
+  box-shadow: 0 0 20px #595761;
+}
+
+#dragon-div {
+  background: #0C69C8;
+  box-shadow: 0 0 20px #0C69C8;
+}
+
+#electric-div {
+  background: #F2D94E;
+  box-shadow: 0 0 20px #F2D94E;
+}
+
+#fire-div {
+  background: #FBA54C;
+  box-shadow: 0 0 20px #FBA54C;
+}
+
+#fairy-div {
+  background: #EE90E6;
+  box-shadow: 0 0 20px #EE90E6;
+}
+
+#fighting-div {
+  background: #D3425F;
+  box-shadow: 0 0 20px #D3425F;
+}
+
+#flying-div {
+  background: #A1BBEC;
+  box-shadow: 0 0 20px #A1BBEC;
+}
+
+#ghost-div {
+  background: #5F6DBC;
+  box-shadow: 0 0 20px #5F6DBC;
+}
+
+#grass-div {
+  background: #5FBD58;
+  box-shadow: 0 0 20px #5FBD58;
+}
+
+#ground-div {
+  background: #DA7C4D;
+  box-shadow: 0 0 20px #DA7C4D;
+}
+
+#ice-div {
+  background: #75D0C1;
+  box-shadow: 0 0 20px #75D0C1;
+}
+
+#normal-div {
+  background: #A0A29F;
+  box-shadow: 0 0 20px #A0A29F;
+}
+
+#poison-div {
+  background: #B763CF;
+  box-shadow: 0 0 20px #B763CF;
+}
+
+#psychic-div {
+  background: #FA8581;
+  box-shadow: 0 0 20px #FA8581;
+}
+
+#rock-div {
+  background: #C9BB8A;
+  box-shadow: 0 0 20px #C9BB8A;
+}
+
+#steel-div {
+  background: #5695A3;
+  box-shadow: 0 0 20px #5695A3;
+}
+
+#water-div {
+  background: #539DDF;
+  box-shadow: 0 0 20px #539DDF;
+}
